@@ -10,7 +10,7 @@ def load_data():
 
 @app.get("/")
 def hello():
-    return {"message": "Patient Data API is running!"}
+    return {"message": "Patient Data API is run done!"}
 
 
 @app.get("/about")
