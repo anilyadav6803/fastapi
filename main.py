@@ -15,7 +15,7 @@ def hello():
 
 @app.get("/about")
 def about():
-    return {"message": "This API provides access to patient data."} 
+    return {"message": "This API access to patient data."} 
 
 
 @app.get("/view")
